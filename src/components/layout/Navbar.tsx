@@ -1,4 +1,5 @@
 import styles from "./Navbar.module.css";
+import img_logo from "../../assets/imgs/logo.jpg";
 
 const Navbar = () => {
   return (
@@ -6,7 +7,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            LOGO
+            <img src={img_logo} alt="" srcset="" />
           </a>
           <button
             className="navbar-toggler"
@@ -22,7 +23,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="/">
                   Home
                 </a>
               </li>
@@ -32,8 +33,8 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Especialidades
+                <a className="nav-link" href="/contact">
+                  Contato
                 </a>
               </li>
               <li className="nav-item">
