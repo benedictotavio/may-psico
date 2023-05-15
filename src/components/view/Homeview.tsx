@@ -11,8 +11,8 @@ const Homeview = () => {
       <section>
         <div className="d-flex flex-row p-md-5">
           <div>
-            <h4>ATENDIMENTO ON-LINE DE PSICOLOGIA CLÍNICA</h4>
-            <p>PARA ADOLESCENTES, ADULTOS E FAMÍLIAS.</p>
+            <h4>ATENDIMENTO ONLINE E PRESENCIAL DE PSICOLOGIA CLÍNICA</h4>
+            <p>PARA ADOLESCENTES E ADULTOS</p>
             <p>
               Fale diretamente comigo, tire suas dúvidas e agende a sua sessão!
             </p>
@@ -20,17 +20,16 @@ const Homeview = () => {
           </div>
         </div>
       </section>
-      <section className="text-center">
+      <section className="text-center container p-md-3">
         <ListGroup />
         <ButtonWPP />
       </section>
-      <section>
+      <section className="container-fluid">
         <About />
       </section>
       <section className="container text-center">
         <h3>
-          Psicóloga Clínica, com atendimento em modo on-line para todos os
-          estados da região Sul e Sudeste do Brasil.
+        Psicóloga clínica, com atendimentos em modo online para todos os estados do Brasil e presencial no ABC Paulista.
         </h3>
       </section>
       <section className="d-flex justify-content-center">
