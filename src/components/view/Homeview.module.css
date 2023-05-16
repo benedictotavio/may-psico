@@ -1,0 +1,35 @@
+.content section.sec1 {
+    min-height: 50vh;
+}
+
+.content section.sec2 {
+    min-height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content section.sec3 {
+    min-height: 60vh;
+}
+
+.content section.sec4 {
+    min-height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content section.sec5 {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content section.sec6 {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

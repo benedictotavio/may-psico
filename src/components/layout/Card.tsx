@@ -14,17 +14,13 @@ const Card = ({ text }: IPropsCard) => {
         compreender a situação.
       </p>
       <p>
-        Acreditamos que a fala sobre si dá ao paciente a oportunidade de sentir
-        e entrar em contato consigo mesmo. Assim, consegue perceber os conteúdos
-        significativos da sua vida, os novos sentidos e construir novas
-        experiências com abordagens criativas. Uma maneira de ressignificar sua
-        história com carinho e acolhimento.
-      </p>
-      <p>
-        Assim, o paciente tem a oportunidade de resolver conflitos internos,
-        desenvolver um melhor relacionamento consigo mesmo e com quem está ao
-        seu redor. Ao mesmo tempo que desenvolve o autoamor, a responsabilidade
-        por seus atos, amadurecimento e autoconhecimento.
+        É uma ciência que acredita que a fala sobre si proporciona ao paciente a
+        oportunidade de sentir e entrar em contato consigo mesmo. De modo que,
+        ele consiga, através dos atendimentos, perceber o que é importante em
+        sua vida, e consiga ressignificar suas experiências, resolver conflitos
+        internos, desenvolver um melhor relacionamento consigo mesmo e com quem
+        está ao seu redor. Além de se tratar de uma prática que gera
+        autoconhecimento.
       </p>
     </div>
   );
