@@ -2,11 +2,12 @@
     padding: 8px 55px;
     border: 0;
     border-radius: 10px;
-    background-color: rgb(238, 165, 138);
+    color: #fff;
+    background-color: #cc6f29;
 }
 
 #btn_wpp:hover {
-    color: rgb(238, 165, 138);
+    color: #cc6f29;
     background-color: #fff;
     transform: scale(1.2);
     transition: .45s;

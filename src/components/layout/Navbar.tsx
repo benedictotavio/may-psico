@@ -1,5 +1,5 @@
 import styles from "./Navbar.module.css";
-import img_logo from "../../assets/imgs/logo.jpg";
+import img_logo from "../../assets/imgs/logo_2.jpg";
 
 const Navbar = () => {
   return (
@@ -34,11 +34,11 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/contact">
-                  Contato
+                  Informações
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled">Opiniões</a>
+                <a className="nav-link disabled">Contato</a>
               </li>
             </ul>
           </div>

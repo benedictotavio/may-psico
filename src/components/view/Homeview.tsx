@@ -1,18 +1,17 @@
 import ButtonWPP from "../buttons/ButtonWPP";
-import About from "../layout/About";
-import Card from "../layout/Card";
-import Footer from "../layout/Footer";
-import ListGroup from "../layout/ListGroup";
-import ListGroupHorizontal from "../layout/ListGroupHorizontal";
-import Online from "../layout/Online";
-import Question from "../layout/Question";
+import About from "../sections/About";
+import Card from "../sections/Card";
+import ListGroup from "../sections/ListGroup";
+import ListGroupHorizontal from "../sections/ListGroupHorizontal";
+import Online from "../sections/Online";
+import Question from "../sections/Question";
 import styles from "./Homeview.module.css";
 
 const Homeview = () => {
   return (
     <div className={styles.content}>
       <section className={styles.sec1}>
-        <div className="d-flex flex-row p-md-5">
+        <div className="container">
           <div>
             <h4>ATENDIMENTO ONLINE E PRESENCIAL DE PSICOLOGIA CLÍNICA</h4>
             <p>PARA ADOLESCENTES E ADULTOS</p>
@@ -24,9 +23,8 @@ const Homeview = () => {
         </div>
       </section>
       <section className={styles.sec2}>
-        <div className="text-center container">
+        <div className="text-center container p-sm-3 p-md-4 p-lg-5">
           <ListGroup />
-          <ButtonWPP />
         </div>
       </section>
       <section className={styles.sec3}>
@@ -43,21 +41,24 @@ const Homeview = () => {
         </div>
       </section>
       <section className={styles.sec5}>
-        <div className="d-flex justify-content-center">
+        <div>
           <ListGroupHorizontal />
         </div>
       </section>
       <section className={styles.sec6}>
-        <Card text="O que é Psicotera​pia?" />
+        <div className="p-3 p-md-5">
+          <Card text="O que é Psicotera​pia?" />
+        </div>
       </section>
-      <section>
+      <section className={styles.sec7}>
         <Question />
       </section>
-      <section>
-        <Online />
+      <section className={styles.sec8}>
+        <div>
+          <Online />
+        </div>
       </section>
     </div>
   );
 };
-
 export default Homeview;

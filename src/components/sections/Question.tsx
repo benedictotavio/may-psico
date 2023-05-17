@@ -1,7 +1,3 @@
-type IPropsQuestion = {
-  text: string;
-};
-
 const Question = () => {
   return (
     <div className="accordion accordion-flush" id="accordionFlushExample">

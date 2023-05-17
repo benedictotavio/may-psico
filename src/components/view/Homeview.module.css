@@ -1,5 +1,8 @@
 .content section.sec1 {
-    min-height: 50vh;
+    min-height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .content section.sec2 {
@@ -21,14 +24,28 @@
 }
 
 .content section.sec5 {
-    min-height: 75vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .content section.sec6 {
-    min-height: 60vh;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content section.sec7 {
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content section.sec8 {
+    min-height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
