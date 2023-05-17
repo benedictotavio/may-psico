@@ -1,8 +1,6 @@
 import ButtonWPP from "../buttons/ButtonWPP";
 
-type Props = {};
-
-const Online = (props: Props) => {
+const Online = () => {
   return (
     <div className="container text-center py-md-5">
       <p>

@@ -1,7 +1,10 @@
 const Footer = () => {
   return (
-    <footer className="py-3 my-4">
-      <ul className="nav justify-content-center border-bottom pb-3 mb-3">
+    <footer className="py-3 my-2 text-center">
+      <h3>
+        Mayara Viera
+      </h3>
+      <ul className="nav justify-content-center border-bottom pt-md-4 pb-md-4 mb-3">
         <li className="nav-item">
           <a href="#" className="nav-link px-2 text-body-secondary">
             Home
@@ -9,22 +12,12 @@ const Footer = () => {
         </li>
         <li className="nav-item">
           <a href="#" className="nav-link px-2 text-body-secondary">
-            Features
+            Linkedin
           </a>
         </li>
         <li className="nav-item">
           <a href="#" className="nav-link px-2 text-body-secondary">
-            Pricing
-          </a>
-        </li>
-        <li className="nav-item">
-          <a href="#" className="nav-link px-2 text-body-secondary">
-            FAQs
-          </a>
-        </li>
-        <li className="nav-item">
-          <a href="#" className="nav-link px-2 text-body-secondary">
-            About
+            Instagram
           </a>
         </li>
       </ul>
