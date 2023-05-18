@@ -10,7 +10,7 @@ import styles from "./Homeview.module.css";
 const Homeview = () => {
   return (
     <div className={styles.content}>
-      <section id='home' className={styles.sec1}>
+      <section id="home" className={styles.sec1}>
         <div className="container">
           <div>
             <h4>ATENDIMENTO ONLINE E PRESENCIAL DE PSICOLOGIA CLÍNICA</h4>
@@ -18,16 +18,18 @@ const Homeview = () => {
             <p>
               Fale diretamente comigo, tire suas dúvidas e agende a sua sessão!
             </p>
-            <ButtonWPP />
+            <div className="text-lg-right">
+              <ButtonWPP />
+            </div>
           </div>
         </div>
       </section>
       <section className={styles.sec2}>
-        <div className="container py-md-5">
+        <div className="text-center container py-md-5">
           <ListGroup />
         </div>
       </section>
-      <section id='about' className={styles.sec3}>
+      <section id="about" className={styles.sec3}>
         <div className="container-fluid py-sm-2 text-justify">
           <About />
         </div>
@@ -50,7 +52,7 @@ const Homeview = () => {
           <Card text="O que é Psicotera​pia?" />
         </div>
       </section>
-      <section id='info_question' className={styles.sec7}>
+      <section id="info_question" className={styles.sec7}>
         <Question />
       </section>
       <section className={styles.sec8}>

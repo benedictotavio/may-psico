@@ -1,8 +1,28 @@
+@import url('https://fonts.cdnfonts.com/css/apricot');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 .content section.sec1 {
-    min-height: 45vh;
+    min-height: 75vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    background: url("../../assets/imgs/bg_homeview.jpg") no-repeat;
+    background-size: cover;
+    background-position: 25%;
+}
+
+.content section.sec1 h4 {
+    font-family: 'Apricot', sans-serif;
+    text-shadow: 1.25px 1.5px 1.25px black;
+    color: #d0712b;
+    font-size: 2.5em;
+}
+
+.content section.sec1 p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color: #3d2e19;
+    font-size: 1.25em;
+    margin: 25px auto;
 }
 
 .content section.sec2 {
@@ -12,16 +32,16 @@
     justify-content: center;
 }
 
-.content section.sec2 ul{
+.content section.sec2 ul {
     list-style-type: none;
 }
 
-.content section.sec2 ul li{
+.content section.sec2 ul li {
     margin: 2px 4px;
 }
 
-.content section.sec2 i > svg{
-    margin:auto 5px;
+.content section.sec2 i>svg {
+    margin: auto 5px;
 }
 
 .content section.sec3 {
@@ -57,7 +77,7 @@
 }
 
 .content section.sec8 {
-    min-height: 40vh;
+    min-height: 65vh;
     display: flex;
     align-items: center;
     justify-content: center;
