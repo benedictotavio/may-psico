@@ -25,7 +25,7 @@ const Homeview = () => {
         </div>
       </section>
       <section className={styles.sec2}>
-        <div className="text-center container py-md-5">
+        <div className="container">
           <ListGroup />
         </div>
       </section>
