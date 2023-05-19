@@ -1,4 +1,4 @@
-import img_girl_lofi from "../../assets/imgs/girl_bg.jpg";
+import img_girl_lofi from "../../assets/imgs/girl_bg.png";
 
 type IPropsCard = {
   text: string;
@@ -6,7 +6,7 @@ type IPropsCard = {
 
 const Card = ({ text }: IPropsCard) => {
   return (
-    <div className="p-3 p-md-5 d-sm-flex align-items justify-space-between">
+    <div className="px-3 px-md-5 d-sm-flex align-items justify-space-between">
       <div className="align-items p-sm-3">
         <img src={img_girl_lofi} alt="" />
       </div>

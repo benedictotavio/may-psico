@@ -11,7 +11,7 @@ const Homeview = () => {
   return (
     <div className={styles.content}>
       <section id="home" className={styles.sec1}>
-        <div className="container">
+        <div className="mx-2 mx-md-5">
           <div>
             <h4>ATENDIMENTO ONLINE E PRESENCIAL DE PSICOLOGIA CLÍNICA</h4>
             <p>PARA ADOLESCENTES E ADULTOS</p>
@@ -34,7 +34,7 @@ const Homeview = () => {
         <div className="container text-center p-sm-4">
           <h3>
             Psicóloga clínica, com atendimentos em modo online para todos os
-            estados do Brasil e presencial no ABC Paulista.
+            estados do Brasil e presencial no <i>ABC Paulista</i> .
           </h3>
         </div>
       </section>
