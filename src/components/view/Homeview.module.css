@@ -87,16 +87,37 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 25%;
-    min-height: 100vh;
     display: flex;
     align-items: center;
+    text-align: center;
+}
+
+.content section.sec5 ul {
+    background: none;
+    display: flex;
     justify-content: center;
+}
+
+.content section.sec5 ul li {
+    background-color: #fefe;
+    width: 100%;
+    margin: 2.5px 5.5px;
+    border: 0;
+    box-shadow: 2.5px 2.5px 2.5px 1.2px rgba(0, 0, 0, 0.2);
+}
+
+.content section.sec5 h5 {
+    font-size: 1em;
+}
+
+.content section.sec5 p {
+    font-size: 0.9em;
 }
 
 /* Card Psico */
 
 .content section.sec6 {
-    min-height: 80vh;
+    margin: 25px auto;
     display: flex;
     align-items: center;
 }
@@ -107,25 +128,24 @@
     }
 }
 
-/* Question */
+/* Questions */
 
-.content section.sec7{
+.content section.sec7 {
     min-height: 50vh;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-.content section.sec7 button{
+.content section.sec7 button {
     font-family: 'Montserrat', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 
 /* Online */
 
 .content section.sec8 {
-    min-height: 55vh;
+    min-height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;

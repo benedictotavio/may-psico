@@ -12,7 +12,11 @@ const Footer = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link px-2 text-body-secondary">
+            <a
+              target="blank"
+              href="https://www.linkedin.com/in/mayara-vieira-705728166/"
+              className="nav-link px-2 text-body-secondary"
+            >
               Linkedin
             </a>
           </li>
@@ -22,7 +26,12 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <p className="text-center text-body-secondary">© 2023 Company, Inc</p>
+        <p className="text-center text-body-secondary">
+          © 2023 Company, Inc |{" "}
+          <span>
+            <a href="https://github.com/otaviobenedicto">Otavio Benedicto</a>
+          </span>
+        </p>
       </footer>
     </div>
   );

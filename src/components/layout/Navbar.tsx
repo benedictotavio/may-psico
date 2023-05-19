@@ -1,5 +1,6 @@
 import styles from "./Navbar.module.css";
 import img_logo from "../../assets/imgs/logo_2.jpg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -38,9 +39,9 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">
+                <Link className = 'nav-link' to='/contact'>
                   Contato
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
