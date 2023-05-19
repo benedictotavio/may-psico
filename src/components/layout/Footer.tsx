@@ -1,4 +1,5 @@
 import styles from "./Footer.module.css";
+import { AiFillGithub } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -29,7 +30,12 @@ const Footer = () => {
         <p className="text-center text-body-secondary">
           © 2023 Company, Inc |{" "}
           <span>
-            <a href="https://github.com/otaviobenedicto">Otavio Benedicto</a>
+            <a target='blank' href="https://github.com/otaviobenedicto">
+              <i>
+                <AiFillGithub />
+              </i>
+              Otavio Benedicto
+            </a>
           </span>
         </p>
       </footer>

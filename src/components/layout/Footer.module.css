@@ -3,6 +3,11 @@
 .footer a {
     text-decoration: none;
     font-family: 'Questrial', sans-serif;
+    font-style: italic;
+}
+
+.footer a:hover{
+    color: #cc6f29;
 }
 
 .footer h3,
@@ -10,6 +15,11 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
-.footer {
-    background-color: #fcfcfc;
+.footer span a{
+    color: black;
+}
+
+.footer span i{
+    color: black;
+    margin:auto 3px;
 }

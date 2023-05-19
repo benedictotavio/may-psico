@@ -3,7 +3,7 @@ import { FaCheck } from "react-icons/fa";
 
 const ListGroup = () => {
   return (
-    <div className="px-5 px-sm-4 px-md-0">
+    <div className="px-3">
       <ul className="list-group">
         <li className="list-group-itemd-flex align-items-center">
           <i>
@@ -27,12 +27,6 @@ const ListGroup = () => {
           <i>
             <FaCheck />
           </i>
-          TEA Adolescentes e Adultos (Transtorno Espectro Autista)
-        </li>
-        <li className="list-group-itemd-flex align-items-center">
-          <i>
-            <FaCheck />
-          </i>
           Relacionamentos
         </li>
         <li className="list-group-itemd-flex align-items-center">
@@ -41,8 +35,14 @@ const ListGroup = () => {
           </i>
           Sexualidade
         </li>
+        <li className="list-group-itemd-flex align-items-center">
+          <i>
+            <FaCheck />
+          </i>
+          Outros
+        </li>
       </ul>
-      <div className='mt-3 py-2 text-lg-center'>
+      <div className="mt-3 py-2 text-lg-center">
         <ButtonWPP />
       </div>
     </div>

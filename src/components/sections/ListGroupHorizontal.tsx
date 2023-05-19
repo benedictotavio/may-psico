@@ -81,7 +81,7 @@ const ListGroupHorizontal = () => {
           </li>
         </ul>
       </div>
-      <div>
+      <div className='my-2 my-md-4'>
         <ButtonWPP />
       </div>
     </div>

@@ -90,6 +90,8 @@
     display: flex;
     align-items: center;
     text-align: center;
+    min-height: 100vh;
+    margin: 10px auto;
 }
 
 .content section.sec5 ul {
@@ -99,7 +101,6 @@
 }
 
 .content section.sec5 ul li {
-    background-color: #fefe;
     width: 100%;
     margin: 2.5px 5.5px;
     border: 0;
