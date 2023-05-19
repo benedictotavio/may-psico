@@ -4,8 +4,8 @@ import { FaCheck } from "react-icons/fa";
 const ListGroup = () => {
   return (
     <>
-      <div className="container">
-        <ul className="list-group py-2 py-sm-3 py-md-4 py-lg-5">
+      <div>
+          <ul className="list-group py-2 py-sm-3 py-md-4 py-lg-5">
           <li className="list-group-itemd-flex align-items-center">
             <i>
               <FaCheck />
@@ -44,7 +44,7 @@ const ListGroup = () => {
           </li>
         </ul>
         <ButtonWPP />
-      </div>
+        </div>
     </>
   );
 };

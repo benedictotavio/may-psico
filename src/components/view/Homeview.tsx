@@ -25,14 +25,10 @@ const Homeview = () => {
         </div>
       </section>
       <section className={styles.sec2}>
-        <div className="container">
-          <ListGroup />
-        </div>
+        <ListGroup />
       </section>
       <section id="about" className={styles.sec3}>
-        <div className="container-fluid py-sm-2 text-justify">
-          <About />
-        </div>
+        <About />
       </section>
       <section className={styles.sec4}>
         <div className="container text-center p-sm-4">
@@ -43,14 +39,10 @@ const Homeview = () => {
         </div>
       </section>
       <section className={styles.sec5}>
-        <div>
-          <ListGroupHorizontal />
-        </div>
+        <ListGroupHorizontal />
       </section>
       <section className={styles.sec6}>
-        <div className="p-3 p-md-5">
-          <Card text="O que é Psicotera​pia?" />
-        </div>
+        <Card text="O que é Psicotera​pia?" />
       </section>
       <section id="info_question" className={styles.sec7}>
         <Question />

@@ -18,7 +18,6 @@
     }
 }
 
-
 .content section.sec1 h4 {
     font-family: 'Montserrat', sans-serif;
     color: #3d2e19;
@@ -35,13 +34,14 @@
     font-weight: 600;
 }
 
+/* List Group */
+
 .content section.sec2 {
-    min-height: 60vh;
+    min-height: 50vh;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
-
-
 .content section.sec2 ul {
     list-style-type: none;
 }
@@ -54,8 +54,12 @@
     margin: auto 5px;
 }
 
+/* About */
+
 .content section.sec3 {
-    min-height: 60vh;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
 }
 
 .content section.sec4 {
@@ -65,8 +69,14 @@
     justify-content: center;
 }
 
+/* List Group Horizontal */
+
 .content section.sec5 {
-    min-height: 70vh;
+    background-image: url("../../assets/imgs/bg_list_group.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25%;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,7 +86,12 @@
     min-height: 90vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+}
+
+@media (max-width: 400px) {
+    .content section.sec6 img{
+        display: none;
+    }
 }
 
 .content section.sec7 {

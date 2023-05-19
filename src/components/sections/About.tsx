@@ -1,7 +1,9 @@
 const About = () => {
   return (
-    <div>
-      <p><b>Mayara Vieira</b></p>
+    <div className="py-sm-2 text-justify">
+      <p>
+        <b>Mayara Vieira</b>
+      </p>
       <p>CRP: 06/183085</p>
       <p>
         Psicóloga Clínica, direcionada a saúde psicológica de homens e mulheres
