@@ -22,15 +22,18 @@ const Footer = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link px-2 text-body-secondary">
+            <a
+              href="https://www.instagram.com/mahhh_vieira/ "
+              className="nav-link px-2 text-body-secondary"
+            >
               Instagram
             </a>
           </li>
         </ul>
         <p className="text-center text-body-secondary">
-          © {new Date().getFullYear()} Company, Inc |{" "}
+          © {new Date().getFullYear()} Company, Inc&nbsp;|&nbsp;
           <span>
-            <a target='blank' href="https://github.com/otaviobenedicto">
+            <a target="blank" href="https://github.com/otaviobenedicto">
               <i>
                 <AiFillGithub />
               </i>

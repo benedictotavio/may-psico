@@ -1,29 +1,45 @@
 import styles from "./ContactForm.module.css";
-
-const onSubmit = async (event: any) => {
-  event.preventDefault();
-  const formData = new FormData(event.target);
-
-  formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
-
-  const object = Object.fromEntries(formData);
-  const json = JSON.stringify(object);
-
-  const res = await fetch("https://api.web3forms.com/submit", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Accept: "application/json",
-    },
-    body: json,
-  }).then((res) => res.json());
-
-  if (res.success) {
-    console.log("Success", res);
-  }
-};
+import { useState } from "preact/hooks";
 
 const ContactForm = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [msg, setMsg] = useState("");
+
+  const onSubmit = async (event: any) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "ca263983-cfe4-4b24-98e6-d5f39761137e");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    console.log(json);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    }).then((res) => res.json());
+
+    if (res.success) {
+      window.alert(
+        "Mensagem enviada com sucesso. Em breve retornaremos o contato!"
+      );
+      console.log("Success", res);
+      setInterval(() => {
+        setName("");
+        setEmail("");
+        setMsg("");
+        setPhone("");
+      }, 6000);
+    }
+  };
   return (
     <div className={styles.contact_form}>
       <div className="content">
@@ -31,10 +47,6 @@ const ContactForm = () => {
           <div className="row justify-content-center">
             <div className="mt-2 mt-md-4 col-md-8">
               <div className=" row mb-5">
-                {/* <div className="col-md-4 mr-auto">
-                  <h3 className="thin-heading mb-4">CRP</h3>
-                  <p>9757 Aspen Lane South Richmond Hill, NY 11419</p>
-                </div> */}
                 <div className="col-md-6 ml-auto">
                   <h3 className="thin-heading mb-4">Informações de Contato</h3>
                   <p>
@@ -55,12 +67,22 @@ const ContactForm = () => {
                     name="contactForm"
                     onSubmit={onSubmit}
                   >
-                    <input type="hidden" name="from_name" value="mayaravieira.com.br"></input>
-                    <input type="hidden" name="subject" value="Novo paciente" 
-                    required/>
+                    <input
+                      type="hidden"
+                      name="from_name"
+                      value="mayaravieira.com.br"
+                    ></input>
+                    <input
+                      type="hidden"
+                      name="subject"
+                      value="Novo paciente"
+                      required
+                    />
                     <div className="row">
                       <div className="col-md-6 form-group">
                         <input
+                          value={name}
+                          onChange={(e: any) => setName(e.target.value)}
                           type="text"
                           className="form-control"
                           name="name"
@@ -72,9 +94,11 @@ const ContactForm = () => {
                       <div className="col-md-6 form-group">
                         <input
                           type="phone"
+                          value={phone}
+                          onChange={(e: any) => setPhone(e.target.value)}
                           className="form-control"
-                          name="email"
-                          id="email"
+                          name="phone"
+                          id="phone"
                           placeholder="Telefone"
                           required
                         />
@@ -82,7 +106,9 @@ const ContactForm = () => {
                     </div>
                     <div className="col-md-12 form-group">
                       <input
-                        type="text"
+                        type="email"
+                        value={email}
+                        onChange={(e: any) => setEmail(e.target.value)}
                         className="form-control"
                         name="email"
                         id="email"
@@ -93,6 +119,8 @@ const ContactForm = () => {
                     <div className="row mt-3">
                       <div className="col-md-12 form-group">
                         <textarea
+                          value={msg}
+                          onChange={(e: any) => setMsg(e.target.value)}
                           className="form-control"
                           name="message"
                           id="message"
