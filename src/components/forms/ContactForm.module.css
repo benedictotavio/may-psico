@@ -1,6 +1,7 @@
 .contact_form {
     background-color: #eeeeee;
     height: 90vh;
+    padding-top: 15px;
 }
 
 .contact_form input,

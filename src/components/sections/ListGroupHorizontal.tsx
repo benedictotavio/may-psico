@@ -39,10 +39,10 @@ const ListGroupHorizontal = () => {
               sintomas como falta de atenção, foco, inquietação e ou
               impulsividade. Os primeiros sinais aparecem na infância e pode
               acompanhar o indivíduo por toda a vida, sendo mais intensos em
-              momentos onde se exige maior concentração. A Terapia Cognitivo
-              Comportamental auxilia o diagnosticado com TDA/TDAH através da
-              prática de mudanças comportamentais, trazendo benefícios para o
-              seu dia a dia, no ambiente social, escolar e profissional.
+              momentos onde se exige maior concentração. Assim, a psicóloga
+              auxilia o diagnosticado com TDA/TDAH através da prática de
+              mudanças comportamentais, trazendo benefícios para o seu dia a
+              dia, no ambiente social, escolar e profissional.
             </p>
           </li>
         </ul>
@@ -61,11 +61,10 @@ const ListGroupHorizontal = () => {
           <li className="list-group-item">
             <h5>Relacionamento e relações interpessoais </h5>
             <p>
-              Construa um relacionamento sadio, aprendendo a como se relacionar
-              melhor com a Psicoterapia que pode te ajudar a compreender e a
-              lidar melhor com os seus sentimentos e relacionamentos, refletindo
-              na qualidade de vida pessoal, profissional e amorosa, mas
-              principalmente consigo mesmo.
+              A Psicoterapia pode te ajudar a ter um relacionamento sadio, te
+              auxiliando a compreender e lidarmelhor com os seus sentimentos e
+              relacionamentos, refletindo na qualidade de vida pessoal,
+              profissional e amorosa, mas principalmente consigo mesmo.
             </p>
           </li>
           <li className="list-group-item">

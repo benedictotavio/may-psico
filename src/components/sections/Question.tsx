@@ -49,14 +49,16 @@ const Question = () => {
           data-bs-parent="#accordionFlushExample"
         >
           <div className="accordion-body">
-            <p>
-              Praticidade, já que as consultas podem realizadas em casas ou em
-              um escritório, pelas plataformas do Google Meet ou Whatsapp.
-            </p>
-            <p>
-              Sigilo, as consultas são realizadas por vídeo seguindo as
-              regulamentações dos Conselhos Federais de Psicologia (CRP)
-            </p>
+            <ul>
+              <li>
+                Praticidade, já que as consultas podem realizadas em casas ou em
+                um escritório, pelas plataformas do Google Meet ou Whatsapp.
+              </li>
+              <li>
+                Sigilo, as consultas são realizadas por vídeo seguindo as
+                regulamentações dos Conselhos Federais de Psicologia (CRP)
+              </li>
+            </ul>
           </div>
         </div>
       </div>

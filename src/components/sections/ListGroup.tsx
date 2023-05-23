@@ -21,7 +21,7 @@ const ListGroup = () => {
           <i>
             <FaCheck />
           </i>
-          Saúde Emocional
+          Saúde emocional
         </li>
         <li className="list-group-itemd-flex align-items-center">
           <i>

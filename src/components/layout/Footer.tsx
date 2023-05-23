@@ -23,6 +23,7 @@ const Footer = () => {
           </li>
           <li className="nav-item">
             <a
+              target="blank"
               href="https://www.instagram.com/mahhh_vieira/ "
               className="nav-link px-2 text-body-secondary"
             >

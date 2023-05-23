@@ -11,7 +11,7 @@ const ContactForm = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "ca263983-cfe4-4b24-98e6-d5f39761137e");
+    formData.append("access_key", import.meta.env.VITE_REACT_APP_API_KEY);
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -132,7 +132,7 @@ const ContactForm = () => {
                       <div className="col-12">
                         <button
                           type="submit"
-                          className="btn btn-primary rounded-0 py-2 px-4"
+                          className="btn btn-primary rounded-3 py-2 px-4"
                         >
                           Enviar
                         </button>

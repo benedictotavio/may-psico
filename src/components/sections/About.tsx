@@ -14,12 +14,14 @@ const About = () => {
         atendimento e apoio psicológico para diversas pessoas com idades e
         transtornos diferentes. Esses anos de prática na clínica, aumentaram o
         meu desejo profissional em me tornar uma Psicóloga com enfoque na saúde
-        das pessoas. Sendo assim, os atendimentos são realizados com empatia e
-        acolhimento, no qual realizo um trabalho psicoterapêutico
-        individualizado e humanizado, de modo a recuperar o emocional, a saúde
-        mental e autoestima das pessoas. Eu espero te ajudar a compreender e
-        lidar com as questões da sua vida e te auxiliar a dar sentido
-        para sua trajetória
+        das pessoas.
+      </p>
+      <p>
+        Sendo assim, os atendimentos são realizados com empatia e acolhimento,
+        no qual realizo um trabalho psicoterapêutico individualizado e
+        humanizado, de modo a recuperar o emocional, a saúde mental e autoestima
+        das pessoas. Eu espero te ajudar a compreender e lidar com as questões
+        da sua vida e te auxiliar a dar sentido para sua trajetória
       </p>
     </div>
   );
