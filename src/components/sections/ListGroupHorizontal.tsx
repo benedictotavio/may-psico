@@ -9,22 +9,26 @@ const ListGroupHorizontal = () => {
             <h5>Atendimento para Adolescentes e Famílias</h5>
             <p>
               Sabendo que a adolescência é uma fase onde todos os sentimentos
-              são vivenciados de forma intensa e que é nesta fase onde o
+              são vivenciados de forma intensa e que é neste momento que o
               adolescente se vê pela primeira vez tomando decisões importantes e
               sem estrutura emocional para lidar com tantas questões, a terapia
               tem o papel de atuar como auxílio, identificando e intervindo nos
               comportamentos disfuncionais e de forma preventiva, garantindo um
-              desenvolvimento psíquico emocional saudável ao longo da sua vida.
+              desenvolvimento psíquico emocional saudável ao longo da sua vida,
+              além de auxiliar na busca de autonomia e
+              autoestima do adolescente.
             </p>
           </li>
           <li className="list-group-item">
-            <h5>Transtorno de Ansiedade</h5>
+            <h5>Transtorno de Ansiedade e outros transtornos</h5>
             <p>
               Apesar de ser um sentimento normal, a ansiedade quando excessiva,
               torna-se prejudicial. A Psicoterapia te ajuda a compreender e
               identificar os gatilhos que desencadeiam a sua ansiedade. Assim,
               você aprende técnicas para controlar eficientemente os seus
-              sintomas ansiosos.
+              sintomas ansiosos. Ademais, há outros transtornos que também
+              necessitam de acompanhamento como o Transtorno Bipolar, Transtorno
+              obsessivo-compulsivo e Estresse pós-traumático.
             </p>
           </li>
           <li className="list-group-item">
@@ -44,20 +48,6 @@ const ListGroupHorizontal = () => {
         </ul>
         <ul className="list-group list-group-horizontal-lg">
           <li className="list-group-item">
-            <h5>TEA (Transtorno Espectro Autista)</h5>
-            <p>
-              O Transtorno do Espectro Autista (TEA) é um distúrbio do
-              desenvolvimento neurológico caracterizado por dificuldades de
-              comunicação social e de interesses restritos desde a infância até
-              a fase adulta. Mas pouco se fala sobre a terapia para autistas na
-              fase adulta, sabendo que essas crianças cresceram e muitas sem o
-              diagnóstico e tratamento adequado, sendo afetadas em sua vida
-              adulta, já que o TEA não tem cura e sim recursos
-              psicoterapêuticos, para que o portador do transtorno tenha uma
-              vida de qualidade.
-            </p>
-          </li>
-          <li className="list-group-item">
             <h5>Saúde emocional</h5>
             <p>
               A sensação de paz com o seu passado, presente e futuro, bem como
@@ -65,23 +55,32 @@ const ListGroupHorizontal = () => {
               Psicologia ajuda você a desconstruir percepções, dar adeus aos
               pensamentos limitantes e a crenças prejudiciais que são
               alimentadas por nós por anos. Assim, você consegue trilhar um
-              caminho leve e mais tranquilo.
+              caminho leve e mais tranquilo.
             </p>
           </li>
           <li className="list-group-item">
-            <h5>Relacionamento</h5>
+            <h5>Relacionamento e relações interpessoais </h5>
             <p>
               Construa um relacionamento sadio, aprendendo a como se relacionar
-              melhor com o auxílio da Terapia Cognitivo Comportamental, onde a
-              Psicologia pode te ajudar a compreender e a lidar melhor com os
-              seus sentimentos e relacionamentos, refletindo na qualidade de
-              vida pessoal, profissional e amorosa, mas principalmente consigo
-              mesmo!
+              melhor com a Psicoterapia que pode te ajudar a compreender e a
+              lidar melhor com os seus sentimentos e relacionamentos, refletindo
+              na qualidade de vida pessoal, profissional e amorosa, mas
+              principalmente consigo mesmo.
+            </p>
+          </li>
+          <li className="list-group-item">
+            <h5>Outras demandas</h5>
+            <p>
+              Além dos tópicos citados, a Psicologia também pode te ajudar com
+              terapia de casal para casais que estão com problemas no
+              relacionamento; o estresse no trabalho e em outros aspectos da
+              vida; orientação vocacional para adolescentes e
+              adultos, entre outros.
             </p>
           </li>
         </ul>
       </div>
-      <div className='my-2 my-md-4'>
+      <div className="my-2 my-md-4">
         <ButtonWPP />
       </div>
     </div>

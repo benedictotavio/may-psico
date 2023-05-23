@@ -36,7 +36,7 @@ const Question = () => {
             aria-expanded="false"
             aria-controls="flush-collapseTwo"
           >
-            2.Quais são os benefícios da Psicoterapia Online?
+            2. Quais são os benefícios da Psicoterapia Online?
           </button>
         </h2>
         <div

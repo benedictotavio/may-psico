@@ -1,21 +1,45 @@
 import styles from "./ContactForm.module.css";
 
+const onSubmit = async (event: any) => {
+  event.preventDefault();
+  const formData = new FormData(event.target);
+
+  formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+
+  const object = Object.fromEntries(formData);
+  const json = JSON.stringify(object);
+
+  const res = await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
+    body: json,
+  }).then((res) => res.json());
+
+  if (res.success) {
+    console.log("Success", res);
+  }
+};
+
 const ContactForm = () => {
   return (
     <div className={styles.contact_form}>
       <div className="content">
-        <div id='form' className="container">
+        <div id="form" className="container">
           <div className="row justify-content-center">
-            <div className="col-md-8">
-              <div className="row mb-5">
-                <div className="col-md-4 mr-auto">
-                  <h3 className="thin-heading mb-4">New York</h3>
+            <div className="mt-2 mt-md-4 col-md-8">
+              <div className=" row mb-5">
+                {/* <div className="col-md-4 mr-auto">
+                  <h3 className="thin-heading mb-4">CRP</h3>
                   <p>9757 Aspen Lane South Richmond Hill, NY 11419</p>
-                </div>
+                </div> */}
                 <div className="col-md-6 ml-auto">
-                  <h3 className="thin-heading mb-4">Contact Info</h3>
+                  <h3 className="thin-heading mb-4">Informações de Contato</h3>
                   <p>
-                    T: +1 (291) 939 9321 <br /> E: info@mywebsite.com
+                    <b>T:</b> +55 (11) 94846-6549 <br /> <b>E:</b>{" "}
+                    ma0ya0ra@gmail.com
                   </p>
                 </div>
               </div>
@@ -25,11 +49,15 @@ const ContactForm = () => {
                   <h3 className="thin-heading mb-4">Contato</h3>
 
                   <form
-                    className="mb-5"
+                    className="mb-5 text-center"
                     method="post"
                     id="contactForm"
                     name="contactForm"
+                    onSubmit={onSubmit}
                   >
+                    <input type="hidden" name="from_name" value="mayaravieira.com.br"></input>
+                    <input type="hidden" name="subject" value="Novo paciente" 
+                    required/>
                     <div className="row">
                       <div className="col-md-6 form-group">
                         <input
@@ -38,17 +66,29 @@ const ContactForm = () => {
                           name="name"
                           id="name"
                           placeholder="Nome"
+                          required
                         />
                       </div>
                       <div className="col-md-6 form-group">
                         <input
-                          type="text"
+                          type="phone"
                           className="form-control"
                           name="email"
                           id="email"
-                          placeholder="Email"
+                          placeholder="Telefone"
+                          required
                         />
                       </div>
+                    </div>
+                    <div className="col-md-12 form-group">
+                      <input
+                        type="text"
+                        className="form-control"
+                        name="email"
+                        id="email"
+                        placeholder="Email"
+                        required
+                      />
                     </div>
                     <div className="row mt-3">
                       <div className="col-md-12 form-group">
@@ -62,11 +102,12 @@ const ContactForm = () => {
                     </div>
                     <div className="row mt-3">
                       <div className="col-12">
-                        <input
+                        <button
                           type="submit"
-                          value="Enviar"
                           className="btn btn-primary rounded-0 py-2 px-4"
-                        />
+                        >
+                          Enviar
+                        </button>
                         <span className="submitting"></span>
                       </div>
                     </div>

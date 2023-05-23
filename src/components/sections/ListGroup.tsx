@@ -39,10 +39,10 @@ const ListGroup = () => {
           <i>
             <FaCheck />
           </i>
-          Outros
+          Outras demandas
         </li>
       </ul>
-      <div className="mt-3 py-2 text-lg-center">
+      <div className="mt-4">
         <ButtonWPP />
       </div>
     </div>

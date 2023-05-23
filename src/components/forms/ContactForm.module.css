@@ -1,4 +1,20 @@
-.contact_form{
+.contact_form {
     background-color: #eeeeee;
     height: 90vh;
+}
+
+.contact_form input,
+textarea {
+    margin: 2.5% auto;
+}
+
+@media (max-width:375px) {
+    .contact_form input {
+        border: 0.75px solid rgb(170, 170, 170);
+        margin: 0px;
+    }
+    .contact_form textarea {
+        border: 0.75px solid rgb(170, 170, 170);
+        margin: 0;
+    }
 }

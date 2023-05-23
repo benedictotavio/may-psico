@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
+.footer {
+    background-color: #fcfcfc;
+}
+
 .footer a {
     text-decoration: none;
     font-family: 'Questrial', sans-serif;
     font-style: italic;
 }
 
-.footer a:hover{
+.footer a:hover {
     color: #cc6f29;
 }
 
@@ -15,11 +19,11 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
-.footer span a{
+.footer span a {
     color: black;
 }
 
-.footer span i{
+.footer span i {
     color: black;
-    margin:auto 3px;
+    margin: auto 3px;
 }
