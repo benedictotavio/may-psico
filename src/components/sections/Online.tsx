@@ -1,5 +1,5 @@
-import ButtonWPP from "../buttons/ButtonWPP";
-import img_online_icon from "../../assets/imgs/online_logo.png";
+import ButtonWPP from "../items/buttons/ButtonWPP";
+import img_online_icon from "../../assets/imgs/media/online_logo.png";
 
 const Online = () => {
   return (

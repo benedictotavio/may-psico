@@ -1,4 +1,4 @@
-import ButtonWPP from "../buttons/ButtonWPP";
+import ButtonWPP from "../items/buttons/ButtonWPP";
 import About from "../sections/About";
 import Card from "../sections/Card";
 import ListGroup from "../sections/ListGroup";

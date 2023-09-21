@@ -1,5 +1,5 @@
 import styles from "./Navbar.module.css";
-import img_logo from "../../assets/imgs/logo_2.png";
+import img_logo from "../../assets/imgs/media/logo_2.png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -39,8 +39,13 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <Link className = 'nav-link' to='/contact'>
+                <Link className='nav-link' to='/contact'>
                   Contato
+                </Link>
+              </li>
+              <li>
+                <Link className='nav-link' to='/blog'>
+                  Blog
                 </Link>
               </li>
             </ul>

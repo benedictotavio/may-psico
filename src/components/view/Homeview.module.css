@@ -7,7 +7,7 @@
     min-height: 75vh;
     display: flex;
     align-items: center;
-    background-image: url("../../assets/imgs/bg_homeview.jpg");
+    background-image: url("../../assets/imgs/media/bg_homeview.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 25%;
@@ -86,7 +86,7 @@
 /* List Group Horizontal */
 
 .content section.sec5 {
-    background-image: url("../../assets/imgs/bg_list_group.jpg");
+    background-image: url("../../assets/imgs/media/");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 25%;

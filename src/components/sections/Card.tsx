@@ -1,4 +1,4 @@
-import img_girl_lofi from "../../assets/imgs/girl_bg.png";
+import img_girl_lofi from "../../assets/imgs/media/girl_bg.png";
 
 type IPropsCard = {
   text: string;

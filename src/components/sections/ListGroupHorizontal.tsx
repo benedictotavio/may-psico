@@ -1,4 +1,4 @@
-import ButtonWPP from "../buttons/ButtonWPP";
+import ButtonWPP from "../items/buttons/ButtonWPP";
 
 const ListGroupHorizontal = () => {
   return (
