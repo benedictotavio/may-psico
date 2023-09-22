@@ -2,3 +2,16 @@ section#blog_post {
     min-height: 100vh;
     margin-top: 25px;
 }
+
+section#blog_post div#blog_image{
+    text-align: center;
+}
+
+section#blog_post div#blog_image h3{
+    font-weight: 100;
+}
+
+section#blog_post figure img{
+    width: 50%;
+
+}

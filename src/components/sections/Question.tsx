@@ -133,7 +133,7 @@ const Question = () => {
           <div className="accordion-body">
             <ul class="list-group">
               <li class="list-group-item">
-                1. Entre em contato comigo por <a className='btn m-0 p-0 text-decoration-none text-success font-weight-bold' href="https://wa.link/m87fyg"><b>WhatsApp</b></a>.
+                1. Entre em contato comigo por <a className='btn m-0 p-0 text-decoration-none text-success font-weight-bold' href="https://wa.link/m87fyg" target='blank'><b>WhatsApp</b></a>.
               </li>
               <li class="list-group-item">
                 2. Escolha o melhor horário para ser atendido.

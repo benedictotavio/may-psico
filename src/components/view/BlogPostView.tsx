@@ -8,11 +8,12 @@ const BlogPostView = () => {
   const dataPost = data[idAsNumber > 0 ? idAsNumber - 1 : 1];
   return (
     <section id={styles.blog_post}>
-      <div className='d-flex justify-content-center'>
+      <div id={styles.blog_image}>
         <figure>
-          <img src={dataPost.img} width={window.innerWidth * 0.35} className='img img-fluid rounded float-left' />
+          <img src={dataPost.img} className='img img-fluid rounded float-left' />
           <figcaption>
             <h1>{dataPost.title}</h1>
+            <h3>{dataPost.title}</h3>
           </figcaption>
           <progress id="file" max="100" value="70">70%</progress>
         </figure>
