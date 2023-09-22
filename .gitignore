@@ -11,7 +11,8 @@ logs
 node_modules
 package-lock.json
 .env
-bower_components
+Dockerfile
+.dockerignore
 
 *.sublime*
 

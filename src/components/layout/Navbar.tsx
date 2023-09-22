@@ -1,10 +1,18 @@
 import styles from "./Navbar.module.css";
 import img_logo from "../../assets/imgs/media/logo_2.png";
 import { Link } from "react-router-dom";
+import { useState } from "preact/hooks";
 
 const Navbar = () => {
+  const [navbarEnabled, setNavbarEnabled] = useState(false);
+  // console.log(navbarEnabled);
+  // const toggleNavbar = () => {
+  //   setNavbarEnabled(!navbarEnabled);
+  // };
+
   return (
     <header className={styles.navbar}>
+
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
@@ -16,35 +24,36 @@ const Navbar = () => {
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
             aria-controls="navbarNav"
-            aria-expanded="false"
+            aria-expanded={navbarEnabled}
             aria-label="Toggle navigation"
+            onClick={() => setNavbarEnabled(true)}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
+          <div className={navbarEnabled ? "navbar-collapse collapse show" : "navbar-collapse collapse"} id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/#home">
+                <a className="nav-link active" aria-current="page" href="/#home" onClick={() => setNavbarEnabled(false)}>
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/#about">
+                <a className="nav-link" href="/#about" onClick={() => setNavbarEnabled(false)}>
                   Sobre mim
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/#info_question">
+                <a className="nav-link" href="/#info_question" onClick={() => setNavbarEnabled(false)}>
                   Informações
                 </a>
               </li>
-              <li className="nav-item">
-                <Link className='nav-link' to='/contact'>
+              <li>
+                <Link className='nav-link' to='/contact' onClick={() => setNavbarEnabled(false)}>
                   Contato
                 </Link>
               </li>
               <li>
-                <Link className='nav-link' to='/blog'>
+                <Link className='nav-link' to='/blog' onClick={() => setNavbarEnabled(false)}>
                   Blog
                 </Link>
               </li>
