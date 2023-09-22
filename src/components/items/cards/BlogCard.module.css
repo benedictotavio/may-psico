@@ -3,6 +3,7 @@ div.card_content {
     justify-content: center;
     width: 45%;
     margin: 7.5px;
+    max-height: 100vh;
 }
 
 @media (max-width: 600px) {

@@ -7,14 +7,15 @@ type IBlogCardProps = {
     img: string,
     altImage: string,
     text: string,
-    datePost: Date
+    datePost: Date,
+    id: number
 }
 
-const BlogCard = ({ title, img, altImage, text, datePost }: IBlogCardProps) => {
+const BlogCard = ({ title, img, altImage, text, datePost, id }: IBlogCardProps) => {
     return (
         <div className={`${styles.card_content} card`}>
             <div className={styles.card_img}>
-                <img className="card-img-top" src={`${img ? img : 'https://images.pexels.com/photos/4471315/pexels-photo-4471315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' || 'https://images.pexels.com/photos/4101188/pexels-photo-4101188.jpeg' || 'https://images.pexels.com/photos/4098199/pexels-photo-4098199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'}`} alt={altImage} />
+                <img className="card-img-top" src={`${img ? img : 'https://images.pexels.com/photos/4471315/pexels-photo-4471315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&ddr=1' || 'https://images.pexels.com/photos/4098199/pexels-photo-4098199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'}`} alt={altImage} />
             </div>
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>
@@ -24,7 +25,7 @@ const BlogCard = ({ title, img, altImage, text, datePost }: IBlogCardProps) => {
                 }) : new Date().toLocaleDateString('pt', {
                     dateStyle: 'long'
                 })}</small></p>
-                <Link to='/'>
+                <Link to={`/blog/${id}`}>
                     <button className="btn btn-primary btn-sm float-right">
                         Leia mais <HiOutlineArrowLongRight />
                     </button>

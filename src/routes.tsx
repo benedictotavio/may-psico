@@ -5,6 +5,7 @@ import Navbar from "./components/layout/Navbar";
 import ButtonFloat from "./components/items/buttons/ButtonFloat";
 import Blog from "./pages/Blog";
 import Footer from "./components/layout/Footer";
+import BlogPostView from "./components/view/BlogPostView";
 
 const routes = () => {
   return (
@@ -15,6 +16,7 @@ const routes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:id" element={<BlogPostView />} />
       </Routes>
       <Footer />
     </BrowserRouter>

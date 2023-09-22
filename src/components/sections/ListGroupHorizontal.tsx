@@ -68,13 +68,9 @@ const ListGroupHorizontal = () => {
             </p>
           </li>
           <li className="list-group-item">
-            <h5>Outras demandas</h5>
+            <h5>Orientação Profissional</h5>
             <p>
-              Além dos tópicos citados, a Psicologia também pode te ajudar com
-              terapia de casal para casais que estão com problemas no
-              relacionamento; o estresse no trabalho e em outros aspectos da
-              vida; orientação vocacional para adolescentes e
-              adultos, entre outros.
+            Um processo de Orientação Profissional é fundamental para auxiliar adolescentes e jovens a fazerem escolhas maduras e coerentes, ajustadas com seus interesses, aptidões e possibilidades, bem como com a realidade do ambiente em que estão inseridos.
             </p>
           </li>
         </ul>

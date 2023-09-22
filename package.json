@@ -9,14 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "preact": "^10.13.1",
-    "react-icons": "^4.8.0",
-    "react-router-dom": "^6.11.1"
+    "preact": "^10.17.1",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.16.0"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.5.0",
-    "@types/node": "^20.2.3",
-    "typescript": "^5.0.2",
-    "vite": "^4.3.2"
+    "@types/node": "^20.6.3",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
   }
 }

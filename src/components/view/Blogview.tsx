@@ -6,8 +6,8 @@ const Blogview = () => {
   return (
     <div className={styles.content}>
       {
-        data.map((posts) => (
-          <BlogCard altImage={posts.altImage} datePost={posts.datePost} img={posts.img} text={posts.text} title={posts.title} />
+        data.map((posts,i) => (
+          <BlogCard altImage={posts.altImage} datePost={posts.datePost} img={posts.img} text={posts.text} title={posts.title} key={i} id={i + 1}/>
         ))
       }
     </div>
