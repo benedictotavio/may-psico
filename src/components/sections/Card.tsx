@@ -23,8 +23,7 @@ const Card = ({ text }: IPropsCard) => {
           que, ele consiga, através dos atendimentos, perceber o que é
           importante em sua vida, e consiga ressignificar suas experiências,
           resolver conflitos internos, desenvolver um melhor relacionamento
-          consigo mesmo e com quem está ao seu redor. Além de se tratar de uma
-          prática que gera autoconhecimento.
+          consigo mesmo e com quem está ao seu redor. Assim se trata também de uma prática que gera o autoconhecimento.
         </p>
       </div>
     </div>

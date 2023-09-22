@@ -4,7 +4,7 @@ const About = () => {
       <p>
         <h4>Mayara Vieira</h4>
       </p>
-      <p>CRP: 06/183085</p>
+      <p>CRP: 06/193085</p>
       <p>
         Psicóloga Clínica, direcionada a saúde psicológica de homens e mulheres
         da adolescência até a terceira idade.
@@ -21,7 +21,7 @@ const About = () => {
         no qual realizo um trabalho psicoterapêutico individualizado e
         humanizado, de modo a recuperar o emocional, a saúde mental e autoestima
         das pessoas. Eu espero te ajudar a compreender e lidar com as questões
-        da sua vida e te auxiliar a dar sentido para sua trajetória
+        da sua vida e te auxiliar a dar sentido para sua trajetória.
       </p>
     </div>
   );

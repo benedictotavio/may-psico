@@ -24,8 +24,7 @@ const Question = () => {
           data-bs-parent="#accordionFlushExample"
         >
           <div className="accordion-body">
-            Sim, aceito todos os convênios médicos para as consultas presenciais
-            na região do Grande <code>ABC Paulista</code>.
+            Sim, aceito todos os convênios médicos por meio de reembolso das sessões.
           </div>
         </div>
       </div>
@@ -51,8 +50,7 @@ const Question = () => {
           <div className="accordion-body">
             <ul>
               <li>
-                Praticidade, já que as consultas podem realizadas em casas ou em
-                um escritório, pelas plataformas do Google Meet ou Whatsapp.
+                Praticidade, já que as consultas podem ser realizadas do conforto do seu lar ou em um escritório, por meio de plataformas on-line como o Google Meet.
               </li>
               <li>
                 Sigilo, as consultas são realizadas por vídeo seguindo as
@@ -134,21 +132,21 @@ const Question = () => {
         >
           <div className="accordion-body">
             <ul class="list-group">
-              <li class="list-group-item disabled">
-                1. Entre em contato comigo por WhatsApp.
+              <li class="list-group-item">
+                1. Entre em contato comigo por <a className='btn m-0 p-0 text-decoration-none text-success font-weight-bold' href="https://wa.link/m87fyg"><b>WhatsApp</b></a>.
               </li>
               <li class="list-group-item">
                 2. Escolha o melhor horário para ser atendido.
               </li>
               <li class="list-group-item">
-                3. Faça o pagamento da sessão (Pix, transferência ou Cartão)
+                3. Faça o pagamento da sessão (pix, transferência ou cartão).
               </li>
               <li class="list-group-item">
                 4. Esteja em um local reservado e silencioso.
               </li>
               <li class="list-group-item">
                 5. Certifique-se que está com um bom sinal de internet e se
-                conecte- se no link enviado.
+                conecte-se no link enviado.
               </li>
             </ul>
           </div>
