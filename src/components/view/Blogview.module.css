@@ -3,4 +3,5 @@ div.content{
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 25px;
+    min-height: 75vh;
 }

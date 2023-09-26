@@ -2,16 +2,16 @@ import styles from "./BlogCard.module.css";
 import { Link } from "react-router-dom";
 import { HiOutlineArrowLongRight } from 'react-icons/hi2'
 
-type IBlogCardProps = {
+export type IPostProps = {
     title: string,
     img: string,
     altImage: string,
     text: string,
     datePost: Date,
-    id: number
+    id?: number
 }
 
-const BlogCard = ({ title, img, altImage, text, datePost, id }: IBlogCardProps) => {
+const BlogCard = ({ title, img, altImage, text, datePost, id }: IPostProps) => {
     return (
         <div className={`${styles.card_content} card`}>
             <div className={styles.card_img}>

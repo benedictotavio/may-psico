@@ -6,7 +6,7 @@ const ListGroupHorizontal = () => {
       <div className="py-2 py-sm-3 py-md-4 py-lg-5">
         <ul className="list-group list-group-horizontal-lg ">
           <li className="list-group-item">
-            <h5>Atendimento para Adolescentes e Famílias</h5>
+            <h2>Atendimento para Adolescentes e Famílias</h2>
             <p>
               Sabendo que a adolescência é uma fase onde todos os sentimentos
               são vivenciados de forma intensa e que é neste momento que o
@@ -20,7 +20,7 @@ const ListGroupHorizontal = () => {
             </p>
           </li>
           <li className="list-group-item">
-            <h5>Transtorno de Ansiedade e outros transtornos</h5>
+            <h2>Transtorno de Ansiedade e outros transtornos</h2>
             <p>
               Apesar de ser um sentimento normal, a ansiedade quando excessiva,
               torna-se prejudicial. A Psicoterapia te ajuda a compreender e
@@ -32,7 +32,7 @@ const ListGroupHorizontal = () => {
             </p>
           </li>
           <li className="list-group-item">
-            <h5>TDAH</h5>
+            <h2>TDAH</h2>
             <p>
               O TDA/TDAH (Transtorno do Déficit de Atenção/Hiperatividade) é um
               transtorno neurobiológico de causas genéticas, caracterizado por
@@ -48,7 +48,7 @@ const ListGroupHorizontal = () => {
         </ul>
         <ul className="list-group list-group-horizontal-lg">
           <li className="list-group-item">
-            <h5>Saúde emocional</h5>
+            <h2>Saúde emocional</h2>
             <p>
               A sensação de paz com o seu passado, presente e futuro, bem como
               sentir-se confortável com as pessoas ao seu redor é real. A
@@ -59,7 +59,7 @@ const ListGroupHorizontal = () => {
             </p>
           </li>
           <li className="list-group-item">
-            <h5>Relacionamento e relações interpessoais </h5>
+            <h2>Relacionamento e relações interpessoais </h2>
             <p>
               A Psicoterapia pode te ajudar a ter um relacionamento sadio, te
               auxiliando a compreender e lidarmelhor com os seus sentimentos e
@@ -68,7 +68,7 @@ const ListGroupHorizontal = () => {
             </p>
           </li>
           <li className="list-group-item">
-            <h5>Orientação Profissional</h5>
+            <h2>Orientação Profissional</h2>
             <p>
             Um processo de Orientação Profissional é fundamental para auxiliar adolescentes e jovens a fazerem escolhas maduras e coerentes, ajustadas com seus interesses, aptidões e possibilidades, bem como com a realidade do ambiente em que estão inseridos.
             </p>
