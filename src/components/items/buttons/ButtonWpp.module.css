@@ -13,7 +13,6 @@ a.btn_wpp_link {
     background-color: hsl(27, 73%, 49%);
     border: none;
     color: #fff;
-    text-shadow: .5px .75px .5px black;
     transition: .45s;
     border-radius: 12px;
     transition: 0.15s;

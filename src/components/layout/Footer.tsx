@@ -10,7 +10,8 @@ const Footer = () => {
         </h3>
         <ul className="nav justify-content-center border-bottom pt-md-4 pb-md-4 mb-3">
           <li className="nav-item">
-            <a href="#" className="nav-link px-2 text-body-secondary">
+            <a href="#" className="nav-link px-2 text-body-secondary"
+            aria-label='Go to Home' >
               Home
             </a>
           </li>
@@ -19,6 +20,7 @@ const Footer = () => {
               target="blank"
               href="https://www.linkedin.com/in/mayara-vieira-705728166/"
               className="nav-link px-2 text-body-secondary"
+              aria-label='Go to Linkedin' 
             >
               Linkedin
             </a>
@@ -26,8 +28,9 @@ const Footer = () => {
           <li className="nav-item">
             <a
               target="blank"
-              href="https://www.instagram.com/mahhh_vieira/ "
+              href="https://www.instagram.com/mahhh_vieira/"
               className="nav-link px-2 text-body-secondary"
+              aria-label='Go to Instagram' 
             >
               Instagram
             </a>

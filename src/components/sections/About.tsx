@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="p-3 p-sm-2 p-md-4 d-flex align-items-center">
       <div className='d-sm-block d-none'>
-        <img src={img_mayara} alt="image picture from Mayara Silva Vieira" className='mx-md-2' style={{ clipPath: 'circle()' }} />
+        <img src={img_mayara} alt="image picture from Mayara Silva Vieira" className='mx-md-2' style={{ clipPath: 'circle()' }} width='100%' height='100%' />
       </div>
       <div>
         <h4>Mayara Vieira</h4>

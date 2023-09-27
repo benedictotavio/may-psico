@@ -8,7 +8,7 @@ const Card = ({ text }: IPropsCard) => {
   return (
     <div className="px-3 px-md-5 d-sm-flex align-items justify-space-between">
       <div className="align-items p-sm-3">
-        <img src={img_girl_lofi} alt="" />
+        <img src={img_girl_lofi} alt="image for a girl drink some coffee" width='100%' height='100%' />
       </div>
       <div className="p-3 p-sm-4 p-lg-5">
         <h1>{text}</h1>
