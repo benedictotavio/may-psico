@@ -17,7 +17,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            <img src={img_logo_89} alt="image logo for Mayara Vieira Pyschology" aria-label={`Learn more for psychology in ${window.location.hostname} `} srcSet={`${img_logo_60} 375w, ${img_logo_75} 900w, ${img_logo_89} 1200w`} />
+            <img src={img_logo_89} width='100%' height='100%' alt="image logo for Mayara Vieira Pyschology" aria-label={`Learn more for psychology in ${window.location.hostname} `} srcSet={`${img_logo_60} 375w, ${img_logo_75} 900w, ${img_logo_89} 1200w`} />
           </a>
           <button
             className="navbar-toggler"

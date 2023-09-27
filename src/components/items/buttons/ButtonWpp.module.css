@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
 a.btn_wpp_link {
     border: 0;
     background: none;
@@ -8,13 +10,15 @@ a.btn_wpp_link {
 
 .btn_wpp {
     padding: 15px 7.5px;
-    background-color: #cc6f29;
+    background-color: hsl(27, 73%, 49%);
     border: none;
     color: #fff;
-    text-shadow: 1.5px 1px 1.5px black;
+    text-shadow: .5px .75px .5px black;
     transition: .45s;
-    border-radius: 10px;
+    border-radius: 12px;
     transition: 0.15s;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bolder;
 }
 
 .btn_wpp:hover{
