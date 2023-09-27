@@ -7,6 +7,7 @@ const BlogPostView = () => {
   const { id } = useParams<{ id: string }>();
   const idAsNumber: number = parseInt(id as string, 10);
   const dataPost: IPostProps = data[idAsNumber > 0 ? idAsNumber - 1 : 1];
+  console.log(dataPost.text[dataPost.text.length - 1]);
   return (
     <section id={styles.blog_post}>
       <div id={styles.blog_image}>
@@ -14,13 +15,13 @@ const BlogPostView = () => {
           <img src={dataPost.img} alt={dataPost.altImage} className='img img-fluid rounded float-left' />
           <figcaption>
             <h1>{dataPost.title}</h1>
-            <h3>{dataPost.title}</h3>
           </figcaption>
           <progress id="file" max="100" value="70" />
         </figure>
       </div>
-      <div className='px-4'>
-        <p className='text-justify'>{dataPost.text}</p>
+
+      {/* Convert text string from posts to HTML text */}
+      <div className='px-4' dangerouslySetInnerHTML={{__html:dataPost.text}}>
       </div>
     </section>
   )

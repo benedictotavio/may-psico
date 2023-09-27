@@ -19,7 +19,7 @@ const BlogCard = ({ title, img, altImage, text, datePost, id }: IPostProps) => {
             </div>
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>
-                <p className="card-text">{text.split('.').slice(0, 3).join(".") + '...'}</p>
+                <p className="card-text" dangerouslySetInnerHTML={{__html:text.split('.').slice(0, 3).join(".") + '...'}}></p>
                 <p className="card-text"><small className="text-muted">Post enviado em {datePost ? datePost.toLocaleDateString('pt', {
                     dateStyle: 'long'
                 }) : new Date().toLocaleDateString('pt', {

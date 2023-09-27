@@ -1,5 +1,6 @@
 import styles from "./Navbar.module.css";
-import img_logo from "../../assets/imgs/media/logo_2.png";
+import img_logo_60 from "../../assets/imgs/media/logo_60w.jpg";
+import img_logo from "../../assets/imgs/media/logo_75w.jpg";
 import { Link } from "react-router-dom";
 import { useState } from "preact/hooks";
 
@@ -16,7 +17,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            <img src={img_logo} alt="image logo for Mayara Vieira Pyschology" aria-label={`Learn more for psychology in ${window.location.hostname} `} />
+            <img src={img_logo} alt="image logo for Mayara Vieira Pyschology" aria-label={`Learn more for psychology in ${window.location.hostname} `} srcSet={`${img_logo_60} 35w, ${img_logo} 1250w`} />
           </a>
           <button
             className="navbar-toggler"
