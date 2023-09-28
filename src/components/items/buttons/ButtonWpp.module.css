@@ -9,7 +9,7 @@ a.btn_wpp_link {
 }
 
 .btn_wpp {
-    padding: 15px 7.5px;
+    padding: 12.5px 5.5px;
     background-color: hsl(27, 73%, 49%);
     border: none;
     color: #fff;
@@ -18,6 +18,7 @@ a.btn_wpp_link {
     transition: 0.15s;
     font-family: 'Questrial', sans-serif;
     font-weight: bolder;
+    font-size: 1.2em;
 }
 
 .btn_wpp:hover{

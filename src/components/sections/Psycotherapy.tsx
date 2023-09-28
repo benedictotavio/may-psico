@@ -1,4 +1,4 @@
-import img_girl_lofi from "../../assets/imgs/media/girl_bg.png";
+import img_girl_lofi from "../../assets/imgs/media/webp/girl_bg.webp";
 
 type IPropsCard = {
   text: string;
@@ -8,7 +8,7 @@ const Card = ({ text }: IPropsCard) => {
   return (
     <div className="px-3 px-md-4 d-sm-flex align-items justify-space-between">
       <div className="align-items p-sm-3">
-        <img src={img_girl_lofi} alt="image for a girl drink some coffee" width='275px' height='100%'/>
+        <img src={img_girl_lofi} alt="image for a girl drink some coffee" width='221px' height='312'/>
       </div>
       <div className="p-3 p-sm-4 p-lg-5">
         <h1>{text}</h1>

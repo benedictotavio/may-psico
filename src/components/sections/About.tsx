@@ -1,10 +1,10 @@
-import img_mayara from '../../assets/imgs/media/about_me_mayara.jpeg'
+import img_mayara from '../../assets/imgs/media/webp/about_me_mayara.webp'
 
 const About = () => {
   return (
     <div className="p-3 p-sm-2 p-md-4 d-flex align-items-center ">
       <div className='d-sm-block d-none me-2'>
-        <img src={img_mayara} alt="image picture from Mayara Silva Vieira" width='250' height='100%' style={{ clipPath: 'circle()' }}/>
+        <img src={img_mayara} alt="image picture from Mayara Silva Vieira" width='350' height='449' style={{ clipPath: 'circle()' }}/>
       </div>
       <div>
         <h4>Mayara Vieira</h4>
