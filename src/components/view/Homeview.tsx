@@ -1,6 +1,6 @@
 import ButtonWPP from "../items/buttons/ButtonWPP";
 import About from "../sections/About";
-import Card from "../sections/Card";
+import Card from "../sections/Psycotherapy";
 import ListGroup from "../sections/ListGroup";
 import ListGroupHorizontal from "../sections/ListGroupHorizontal";
 import Online from "../sections/Online";
