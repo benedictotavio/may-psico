@@ -25,16 +25,6 @@ const Footer = () => {
               Linkedin
             </a>
           </li>
-          <li className="nav-item">
-            <a
-              target="blank"
-              href="https://www.instagram.com/mahhh_vieira/"
-              className="nav-link px-2 text-body-secondary"
-              aria-label='Go to Instagram' 
-            >
-              Instagram
-            </a>
-          </li>
         </ul>
         <p className="text-center text-body-secondary">
           © {new Date().getFullYear()} Company, Inc&nbsp;|&nbsp;
