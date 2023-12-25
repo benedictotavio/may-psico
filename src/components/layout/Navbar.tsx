@@ -7,17 +7,19 @@ import { useState } from "preact/hooks";
 
 const Navbar = () => {
   const [navbarEnabled, setNavbarEnabled] = useState(false);
-  // console.log(navbarEnabled);
-  // const toggleNavbar = () => {
-  //   setNavbarEnabled(!navbarEnabled);
-  // };
-
   return (
     <header className={styles.navbar}>
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            <img src={img_logo_89} width='100%' height='100%' alt="image logo for Mayara Vieira Pyschology" aria-label={`Learn more for psychology in ${window.location.hostname} `} srcSet={`${img_logo_60} 375w, ${img_logo_75} 900w, ${img_logo_89} 1200w`} />
+            <img
+              src={img_logo_89}
+              width="100%"
+              height="100%"
+              alt="image logo for Mayara Vieira Pyschology"
+              aria-label={`Learn more for psychology in ${window.location.hostname} `}
+              srcSet={`${img_logo_60} 375w, ${img_logo_75} 900w, ${img_logo_89} 1200w`}
+            />
           </a>
           <button
             className="navbar-toggler"
@@ -31,31 +33,68 @@ const Navbar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className={navbarEnabled ? "navbar-collapse collapse show" : "navbar-collapse collapse"} id="navbarNav">
+          <div
+            className={
+              navbarEnabled
+                ? "navbar-collapse collapse show"
+                : "navbar-collapse collapse"
+            }
+            id="navbarNav"
+          >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/#home" onClick={() => setNavbarEnabled(false)}>
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="/#home"
+                  onClick={() => setNavbarEnabled(false)}
+                >
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/#about" onClick={() => setNavbarEnabled(false)}>
+                <a
+                  className="nav-link"
+                  href="/#about"
+                  onClick={() => setNavbarEnabled(false)}
+                >
                   Sobre mim
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/#info_question" onClick={() => setNavbarEnabled(false)}>
+                <a
+                  className="nav-link"
+                  href="/#info_question"
+                  onClick={() => setNavbarEnabled(false)}
+                >
                   Informações
                 </a>
               </li>
               <li>
-                <Link className='nav-link' to='/contact' onClick={() => setNavbarEnabled(false)}>
+                <Link
+                  className="nav-link"
+                  to="/contact"
+                  onClick={() => setNavbarEnabled(false)}
+                >
                   Contato
                 </Link>
               </li>
               <li>
-                <Link className='nav-link' to='/blog' onClick={() => setNavbarEnabled(false)}>
+                <Link
+                  className="nav-link"
+                  to="/blog"
+                  onClick={() => setNavbarEnabled(false)}
+                >
                   Blog
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="nav-link"
+                  to="/others"
+                  onClick={() => setNavbarEnabled(false)}
+                >
+                  Outros serviços
                 </Link>
               </li>
             </ul>

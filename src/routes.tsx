@@ -6,6 +6,7 @@ import ButtonFloat from "./components/items/buttons/ButtonFloat";
 import Blog from "./pages/Blog";
 import Footer from "./components/layout/Footer";
 import BlogPostView from "./components/view/BlogPostView";
+import OtherServices from "./pages/OtherServices";
 
 const routes = () => {
   return (
@@ -17,6 +18,7 @@ const routes = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogPostView />} />
+        <Route path="/others" element={<OtherServices />} />
       </Routes>
       <Footer />
     </BrowserRouter>
