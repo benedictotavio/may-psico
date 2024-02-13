@@ -6,7 +6,6 @@ const BlogPostView = () => {
   const { id } = useParams<{ id: string }>();
   const idAsNumber: number = parseInt(id as string, 10);
   const dataPost: IPostProps = data[idAsNumber > 0 ? idAsNumber - 1 : 1];
-  console.log(dataPost.text[dataPost.text.length - 1]);
   return (
     <section id={styles.blog_post}>
       <div id={styles.blog_image}>
