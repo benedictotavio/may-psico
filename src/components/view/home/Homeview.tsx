@@ -1,10 +1,10 @@
-import ButtonWPP from "../items/buttons/ButtonWPP";
-import About from "../sections/About";
-import Card from "../sections/Psycotherapy";
-import ListGroup from "../sections/ListGroup";
-import ListGroupHorizontal from "../sections/ListGroupHorizontal";
-import Online from "../sections/Online";
-import Question from "../sections/Question";
+import ButtonWPP from "../../items/buttons/ButtonWPP";
+import About from "../../sections/About";
+import Card from "../../sections/Psycotherapy";
+import ListGroup from "../../sections/ListGroup";
+import ListGroupHorizontal from "../../sections/ListGroupHorizontal";
+import Online from "../../sections/Online";
+import Question from "../../sections/Question";
 import styles from "./Homeview.module.css";
 
 const Homeview = () => {

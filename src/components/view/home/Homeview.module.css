@@ -7,16 +7,15 @@
     min-height: 75vh;
     display: flex;
     align-items: center;
-    background-image: url("../../assets/imgs/media/webp/bg_homeview.webp");
+    background-image: url("../../../assets/imgs/media/webp/bg_homeview.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 25%;
     text-align: start;
 }
 .content section.sec1 h4 {
-    font-family: 'Montserrat', sans-serif;
     color: #3d2e19;
-    font-size: 1.65em;
+    font-size: 2em;
     font-weight: 900;
 }
 .content section.sec1 p {

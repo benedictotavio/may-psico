@@ -2,7 +2,7 @@ import styles from "./BlogCard.module.css";
 import { Link } from "react-router-dom";
 import { HiOutlineArrowLongRight } from 'react-icons/hi2'
 import { useEffect, useState } from "preact/hooks";
-import Loading from "../../layout/Loading";
+import Loading from "../../layout/loading/Loading";
 
 export type IPostProps = {
     title: string,

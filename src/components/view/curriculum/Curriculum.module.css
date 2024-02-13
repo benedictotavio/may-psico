@@ -1,0 +1,40 @@
+div.container {
+    min-height: 75vh;
+}
+
+div.container section.sec1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 15px;
+}
+
+@media screen and (max-width: 600px) {
+    div.container section.sec1 img{
+        display: none;
+    }
+}
+
+div.container section.sec1 h2,p{
+    padding: 10px 0;
+}
+
+div.container section.sec2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50vh;
+    background-color: #fcfcfc;
+    padding: 20px 5px;
+}
+
+div.container section.sec2 ul {
+    list-style-type: none;
+    background-color: #fcfcfc;
+    border-radius: 15px;
+}
+
+div.container section.sec3 {
+    min-height: 20vh;
+    margin: 2.5% 0 1% 0;
+}

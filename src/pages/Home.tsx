@@ -1,9 +1,7 @@
-import Homeview from "../components/view/Homeview";
+import Homeview from "../components/view/home/Homeview";
 
 const Home = () => {
-  return (
-      <Homeview />
-  );
+  return <Homeview />;
 };
 
 export default Home;

@@ -8,37 +8,37 @@ const ListGroup = () => {
         <li className="list-group-itemd-flex align-items-center">
           <i>
             <FaCheck />
-          </i>
+          </i>{' '}
           Transtorno de Ansiedade
         </li>
         <li className="list-group-itemd-flex align-items-center">
           <i>
             <FaCheck />
-          </i>
+          </i>{' '}
           TDAH (Transtorno do Déficit de Atenção/Hiperatividade)
         </li>
         <li className="list-group-itemd-flex align-items-center">
           <i>
             <FaCheck />
-          </i>
+          </i>{' '}
           Saúde emocional
         </li>
         <li className="list-group-itemd-flex align-items-center">
           <i>
             <FaCheck />
-          </i>
+          </i>{' '}
           Relacionamentos
         </li>
         <li className="list-group-itemd-flex align-items-center">
           <i>
             <FaCheck />
-          </i>
+          </i>{' '}
           Sexualidade
         </li>
         <li className="list-group-itemd-flex align-items-center">
           <i>
             <FaCheck />
-          </i>
+          </i>{' '}
           Outras demandas
         </li>
       </ul>
