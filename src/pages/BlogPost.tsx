@@ -1,7 +1,7 @@
-import BlogPostView from "../components/view/BlogPostView";
+import BlogPostView from "../components/view/blog/posts/BlogPostView";
 
 const BlogPost = () => {
-    return <BlogPostView/>
-}
+  return <BlogPostView />;
+};
 
 export default BlogPost;

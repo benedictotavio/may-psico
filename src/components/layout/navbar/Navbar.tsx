@@ -1,7 +1,7 @@
 import styles from "./Navbar.module.css";
-import img_logo_60 from "../../assets/imgs/media/webp/logo_60w_1.webp";
-import img_logo_75 from "../../assets/imgs/media/webp/logo_75w.webp";
-import img_logo_89 from "../../assets/imgs/media/webp/logo_89w.webp";
+import img_logo_60 from "../../../assets/imgs/media/webp/logo_60w_1.webp";
+import img_logo_75 from "../../../assets/imgs/media/webp/logo_75w.webp";
+import img_logo_89 from "../../../assets/imgs/media/webp/logo_89w.webp";
 import { Link } from "react-router-dom";
 import { useState } from "preact/hooks";
 
@@ -94,7 +94,7 @@ const Navbar = () => {
                   to="/others"
                   onClick={() => setNavbarEnabled(false)}
                 >
-                  Outros serviços
+                  Consultoria de Currículos
                 </Link>
               </li>
             </ul>

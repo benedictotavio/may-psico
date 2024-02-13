@@ -1,4 +1,4 @@
-import OtherServicesView from "../components/view/OtherServicesView";
+import OtherServicesView from "../components/view/curriculum/Curriculum";
 
 const OtherServices = () => {
   return <OtherServicesView />;

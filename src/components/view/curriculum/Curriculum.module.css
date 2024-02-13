@@ -1,0 +1,26 @@
+div.container {
+    min-height: 75vh;
+}
+
+div.container section.sec1 {
+    padding: 20px 15px;
+}
+
+div.container section.sec1 h2,p{
+    padding: 10px 0;
+}
+
+div.container section.sec2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    padding: 20px 5px;
+}
+
+div.container section.sec2 ul {
+    list-style-type: none;
+    background-color: #fcfcfc;
+    border-radius: 15px;
+}

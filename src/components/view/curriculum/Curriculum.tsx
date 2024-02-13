@@ -1,4 +1,6 @@
-import styles from "./OtherServicesView.module.css";
+import { FaCheck } from "react-icons/fa";
+import ButtonWPP from "../../items/buttons/ButtonWPP";
+import styles from "./Curriculum.module.css";
 
 const OtherServicesView = () => {
   return (
@@ -17,34 +19,72 @@ const OtherServicesView = () => {
           Além da tradução de currículos para o Inglês, Espanhol e outros
           idiomas, caso seja solicitado.
         </p>
+        <div>
+          <ButtonWPP />
+        </div>
       </section>
 
       <section className={styles.sec2}>
         <div>
           <div>
             <h2>Diferenciais</h2>
-            <ul>
-              <li>
-                Avaliação de uma profissional de psicologia com experiência em
-                triagem de currículos
+            <ul className={`list-group`}>
+              <li className={`list-group-item`}>
+                <i>
+                  <FaCheck />
+                </i>
+                {' '}
+                  Avaliação de uma profissional de psicologia com experiência em
+                  triagem de currículos
               </li>
-              <li>Aumento de visibilidade do currículo no mercado</li>
-              <li> Inclusão de palavras-chave</li>
-              <li>Linguagem mercadológica atualizada</li>
-              <li>LinkedIn com melhoria de rankeamento</li>
-              <li>Projeto com rápida entrega (24h)</li>
+              <li className={`list-group-item`}>
+                <i><FaCheck /></i>
+                {' '}
+                Aumento de visibilidade do currículo no mercado
+              </li>
+              <li className={`list-group-item`}>
+                <i><FaCheck /></i>
+                {' '}
+                Inclusão de palavras-chave
+              </li>
+              <li className={`list-group-item`}>
+                <i>
+                  <FaCheck />
+                </i>{' '}
+                Linguagem mercadológica atualizada
+              </li>
+              <li className={`list-group-item`}>
+                <i><FaCheck /></i> {' '}
+                LinkedIn com melhoria de rankeamento
+              </li>
+              <li className={`list-group-item`}>
+                <i><FaCheck /></i> {' '}
+                Projeto com rápida entrega (24h)
+              </li>
             </ul>
           </div>
         </div>
 
         <div>
           <h2>Tipos de serviços</h2>
-          <ul>
-            <li>Currículo digital (em pdf)</li>
-            <li>Currículo no LinkedIn (Perfil do LinkedIn)</li>
-            <li>Carta de apresentação</li>
-            <li>Portfólio profissional</li>
-            <li>Elevator Pitch.</li>
+          <ul className={`list-group`}>
+            <li className={`list-group-item`}>
+              <i><FaCheck /></i>{' '}
+              Currículo digital (em pdf)
+            </li>
+            <li className={`list-group-item`}>
+              <i><FaCheck /></i>{' '} Currículo no LinkedIn (Perfil do LinkedIn) 
+            </li>
+            <li className={`list-group-item`}>
+              <i><FaCheck /></i>{' '} 
+              Carta de apresentação
+            </li>
+            <li className={`list-group-item`}>
+              <i><FaCheck /></i>{' '} Portfólio profissional
+            </li>
+            <li className={`list-group-item`}>
+              <i><FaCheck /></i>{' '} Elevator Pitch.
+            </li>
           </ul>
         </div>
       </section>

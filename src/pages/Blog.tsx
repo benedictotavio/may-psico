@@ -1,9 +1,7 @@
-import Blogview from "../components/view/Blogview"
+import Blogview from "../components/view/blog/view/Blogview";
 
 const Blog = () => {
-  return (
-    <Blogview/>
-  )
-}
+  return <Blogview />;
+};
 
-export default Blog
+export default Blog;
