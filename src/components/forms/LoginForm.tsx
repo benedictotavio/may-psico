@@ -17,7 +17,6 @@ const LoginForm = () => {
     }
 
     const isFieldsValid = (email: string, password: string): boolean => {
-        console.log(email, password);
 
         if (email === "" || password === "") {
             setErrorMessage("Por favor, preencha todos os campos");

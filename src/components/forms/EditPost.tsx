@@ -18,7 +18,9 @@ const EditPost = ({ post }: EditPostProps) => {
     return (
         <>
             <form onSubmit={handleSubmit} className={styles.form_edit}>
-                <img src={post.img} alt={post.altImage} />
+                <div className={styles.form_image}>
+                    <img src={post.img} alt={post.altImage} />
+                </div>
                 <div>
                     <input type="text" id="title" value={post.title} />
                 </div>

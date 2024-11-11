@@ -10,7 +10,7 @@ const Footer = () => {
         </h3>
         <ul className="nav justify-content-center border-bottom pt-md-4 pb-md-4 mb-3">
           <li className="nav-item">
-            <a href="#" className="nav-link px-2 text-body-secondary"
+            <a href="/#" className="nav-link px-2 text-body-secondary"
               aria-label='Go to Home' >
               Home
             </a>
