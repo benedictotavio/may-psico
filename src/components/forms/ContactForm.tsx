@@ -31,7 +31,6 @@ const ContactForm = () => {
       window.alert(
         "Mensagem enviada com sucesso. Em breve retornaremos o contato!"
       );
-      console.log("Success", res);
       setInterval(() => {
         setName("");
         setEmail("");

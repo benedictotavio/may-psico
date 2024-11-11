@@ -1,0 +1,61 @@
+.message_error {
+  color: red;
+  font-size: 1em;
+  position: absolute;
+  z-index: 1000;
+  padding: 0.5px 2.5px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0 auto;
+  text-align: center;
+  top: 8%;
+  left: 0;
+  right: 0;
+  width: 50%;
+}
+
+.message_error_header {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.message_error_header > button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 0.75em;
+  color: #333;
+  margin-left: 10px;
+}
+
+.message_error > p {
+  margin: 0;
+}
+
+.show {
+  animation: fallDown 0.5s ease-in-out;
+}
+
+.hide {
+  animation: riseUp 0.5s ease-in-out;
+}
+
+@keyframes fallDown {
+ 0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes riseUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
