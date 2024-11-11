@@ -1,0 +1,27 @@
+.table_body {
+    background-color: bisque;
+}
+
+.table_header {
+    background-color: rgb(197, 121, 28);
+    text-align: start;
+}
+
+.btn_view_table {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 80px;
+    max-width: 200px;
+    border-radius: 10px;
+    border: none;
+    width: 120px;
+}
+
+.btn_view_table i {
+    margin: 2px;
+}
+
+.btn_view_table span{
+    font-size: 1em;
+}

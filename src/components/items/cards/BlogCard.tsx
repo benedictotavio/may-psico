@@ -3,22 +3,13 @@ import { Link } from "react-router-dom";
 import { HiOutlineArrowLongRight } from 'react-icons/hi2'
 import { useEffect, useState } from "preact/hooks";
 import Loading from "../../layout/loading/Loading";
+import { BlogPost } from "../../../interfaces/blogpost.interface";
 
-export type IPostProps = {
-    title: string,
-    img: string,
-    altImage: string,
-    text: string,
-    datePost: Date,
-    id?: number
-}
-
-const BlogCard = ({ title, img, altImage, text, datePost, id }: IPostProps) => {
+const BlogCard = ({ title, img, altImage, text, datePost, id }: BlogPost) => {
 
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        // Simulate an asynchronous operation (e.g., data fetching)
         setTimeout(() => {
             setIsLoading(false);
         }, 1350);
@@ -27,7 +18,7 @@ const BlogCard = ({ title, img, altImage, text, datePost, id }: IPostProps) => {
     return (
         <div className={`${styles.card_content} card`}>
             {isLoading ? <Loading /> : <><div className={styles.card_img}>
-                <img className="card-img-top" src={`${img ? img : 'https://images.pexels.com/photos/4471315/pexels-photo-4471315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&ddr=1' || 'https://images.pexels.com/photos/4098199/pexels-photo-4098199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'}`} alt={altImage} />
+                <img className="card-img-top" src={img || 'https://images.pexels.com/photos/4471315/pexels-photo-4471315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&ddr=1'} alt={altImage} />
             </div>
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>
@@ -48,6 +39,5 @@ const BlogCard = ({ title, img, altImage, text, datePost, id }: IPostProps) => {
         </div>
     )
 }
-
 export default BlogCard
 
