@@ -1,12 +1,13 @@
-import BlogCard, { IPostProps } from "../../../items/cards/BlogCard";
+import BlogCard from "../../../items/cards/BlogCard";
 import styles from "./Blogview.module.css";
 import data from "../../../../data/posts";
+import { BlogPost } from "../../../../interfaces/blogpost.interface";
 
 const Blogview = () => {
   return (
     <div className={styles.content}>
       {data.length > 0 ? (
-        data.map((posts: IPostProps, i: number) => (
+        data.map((posts: BlogPost, i: number) => (
           <BlogCard
             altImage={posts.altImage}
             datePost={posts.datePost}

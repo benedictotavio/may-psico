@@ -2,6 +2,11 @@
     background-color: bisque;
 }
 
+.table_body a {
+    text-decoration: none;
+    color: black;
+}
+
 .table_header {
     background-color: rgb(197, 121, 28);
     text-align: start;

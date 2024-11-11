@@ -32,23 +32,13 @@ const PostsSectionView = () => {
                 </button>
             </div>
             <div>
-                <h1>Postagem</h1>
                 {
                     post && (
                         <div>
-                            <img src={post.img} alt={post.altImage} />
                             <EditPost post={post} />
                         </div>
                     )
                 }
-            </div>
-            <div>
-                <button>
-                    Salvar
-                </button>
-                <button>
-                    Excluir
-                </button>
             </div>
         </div>
     )
