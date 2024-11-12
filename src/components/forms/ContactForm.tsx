@@ -16,8 +16,6 @@ const ContactForm = () => {
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
 
-    console.log(json);
-
     const res = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       headers: {
@@ -44,7 +42,7 @@ const ContactForm = () => {
       <div className="content">
         <div id="form" className="container">
           <div className="row justify-content-center">
-            <div className="mt-2 mt-md-4 col-md-8">
+            <div className="mt-1 mt-md-4 col-md-8">
               <div className=" row mb-5">
                 <div className="col-md-6 ml-auto">
                   <h3 className="thin-heading mb-4">Informações de Contato</h3>
@@ -53,12 +51,14 @@ const ContactForm = () => {
                     ma0ya0ra@gmail.com
                   </p>
                 </div>
+                <p>
+                  Consulte um orçamento sem compromisso<a href="https://docs.google.com/forms/d/e/1FAIpQLSdoszQ9LGqwIigkRdHF1n7rXT_3HwLA8b-EKNW8kcsdNzE-nQ/viewform?usp=sf_link" target="_blank" className="m-1">aqui</a>.
+                </p>
               </div>
 
               <div className="row justify-content-center">
                 <div className="col-md-12">
                   <h3 className="thin-heading mb-4">Contato</h3>
-
                   <form
                     className="mb-5 text-center"
                     method="post"

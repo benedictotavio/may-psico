@@ -1,8 +1,8 @@
-import ContactForm from "../components/forms/ContactForm";
+import ContactView from "../components/view/contact/ContactView";
 
 const Contact = () => {
   return (
-      <ContactForm />
+      <ContactView />
   );
 };
 

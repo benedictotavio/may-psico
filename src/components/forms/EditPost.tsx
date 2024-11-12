@@ -1,5 +1,6 @@
 import { BlogPost } from "../../interfaces/blogpost.interface"
 import styles from "./EditPost.module.css";
+import { AiFillDelete, AiFillSave } from "react-icons/ai";
 
 type EditPostProps = {
     post: BlogPost
@@ -8,16 +9,16 @@ type EditPostProps = {
 const EditPost = ({ post }: EditPostProps) => {
 
     const handleDelete = () => {
-        window.confirm("Tem certeza que deseja deletar essa postagem?") && window.location.reload();
+        window.confirm("Tem certeza que deseja deletar essa postagem?") ? window.location.reload() : null;
     }
 
-    const handleSubmit = (e: any) => {
+    const handleSave = (e: any) => {
         e.preventDefault();
     }
 
     return (
         <>
-            <form onSubmit={handleSubmit} className={styles.form_edit}>
+            <form className={styles.form_edit}>
                 <div className={styles.form_image}>
                     <img src={post.img} alt={post.altImage} />
                 </div>
@@ -31,12 +32,24 @@ const EditPost = ({ post }: EditPostProps) => {
                     <input readOnly type="text" id="date" value={post.datePost.toLocaleDateString()} />
                 </div>
                 <div className={styles.form_buttons}>
-                    <div>
-                        <button type="submit">Salvar</button>
-                    </div>
-                    <div>
-                        <button onClick={handleDelete}>Deletar</button>
-                    </div>
+                    
+                        <button type="submit" onClick={handleSave}>
+                            <i>
+                                <AiFillSave />
+                            </i>
+                            <span>
+                                Salvar
+                            </span>
+                        </button>
+                   
+                        <button type="submit" onClick={handleDelete}>
+                            <i>
+                                <AiFillDelete />
+                            </i>
+                            <span>
+                                Deletar
+                            </span>
+                        </button>
                 </div>
             </form>
         </>
