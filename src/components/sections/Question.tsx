@@ -50,11 +50,15 @@ const Question = () => {
           <div className="accordion-body">
             <ul>
               <li>
-                Praticidade, já que as consultas podem ser realizadas do conforto do seu lar ou em um escritório, por meio de plataformas on-line como o Google Meet.
+                Atendimento totalmente individualizado e adaptado às suas necessidades
+                específicas (cada sessão é planejada e estudada);
               </li>
               <li>
-                Sigilo, as consultas são realizadas por vídeo seguindo as
-                regulamentações dos Conselhos Federais de Psicologia (CRP)
+                Sigilo profissional, as consultas são realizadas seguindo as regulamentações
+                dos Conselhos Federais de Psicologia (CRP);
+              </li>
+              <li>
+                Ambiente seguro e acolhedor para explorar suas emoções e sentimentos.
               </li>
             </ul>
           </div>
@@ -80,8 +84,8 @@ const Question = () => {
           data-bs-parent="#accordionFlushExample"
         >
           <div className="accordion-body">
-            Cada sessão tem duração de 45 minutos. É importante evitar atrasos,
-            pois o tempo de atraso não poderá ser compensado.
+            Cada sessão tem duração de 50 minutos. É importante evitar atrasos, pois o
+            tempo de atraso não poderá ser compensado.
           </div>
         </div>
       </div>
@@ -177,6 +181,83 @@ const Question = () => {
               do ABC Paulista, basta entrar em contato pelo whatsapp ou e-mail e
               agendar no local mais próximo da sua residência.
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="accordion-item">
+        <h2 className="accordion-header" id="flush-headingSeven">
+          <button
+            className="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseSeven"
+            aria-expanded="false"
+            aria-controls="flush-collapseSeven"
+          >
+            7. Vale a pena investir em terapia?
+          </button>
+        </h2>
+        <div
+          id="flush-collapseSeven"
+          className="accordion-collapse collapse"
+          aria-labelledby="flush-headingSeven"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div className="accordion-body">
+            <p>
+              Sim. A terapia é um processo que ajuda as pessoas a resolverem seus problemas
+              emocionais, comportamentais e psicológicos, com o apoio de um profissional
+              qualificado e ético.
+            </p>
+
+            <p>
+              A terapia pode trazer vários benefícios para a saúde mental e o bem-estar das
+              pessoas, como promover o autoconhecimento, a inteligência emocional, os
+              relacionamentos interpessoais, a superação de traumas, o autocontrole, o
+              reconhecimento das habilidades e a expressão livre dos sentimentos.
+              O investimento se refere não somente ao atendimento de 50 minutos, mas também
+              na preparação da sessão e ao estudo personalizado do caso após o horário do
+              atendimento;
+            </p>
+            <p>
+              Além disso, o investimento em psicoterapia particular é, acima de tudo, um
+              investimento em sua saúde mental e emocional, que impacta positivamente todas
+              as áreas da sua vida.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="accordion-item">
+        <h2 className="accordion-header" id="flush-headingEight">
+          <button
+            className="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseEight"
+            aria-expanded="false"
+            aria-controls="flush-collapseEight"
+          >
+            8. Quais formas de pagamento são aceitas?
+          </button>
+        </h2>
+        <div
+          id="flush-collapseEight"
+          className="accordion-collapse collapse"
+          aria-labelledby="flush-headingEight"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div className="accordion-body">
+            <ul>
+              <li>
+                Transferência bancária
+              </li>
+              <li>
+                Pix
+              </li>
+              <li>
+                Cartão de crédito (acréscimo de taxa)
+              </li>
+            </ul>
           </div>
         </div>
       </div>
